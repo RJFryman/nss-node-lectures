@@ -1,0 +1,39 @@
+*{
+  font-family: monospace;
+}
+
+h1{
+  color: red;
+}
+
+div{
+  color: green;
+}
+
+a[href]{
+font-size: 20px;
+}
+
+#first-name{
+  color= purple;
+}
+
+#middle-name{
+  color=red;
+}
+
+.name{
+  font-size: 16px;
+}
+
+#one{
+  boarder: 1px dashed blue;
+}
+
+.x1{
+  color:brown
+}
+
+div#one p{
+background-color: skyblue;
+}

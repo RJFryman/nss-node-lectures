@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Sans:400,800);
+
+div#main {
+width: 960px;
+margin: 0px auto;
+}
+
+Body{
+background-image: url(/images/bg-sand.png);
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #c13832;
+  font-size: 84px;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  text-align:center;
+  margin:0px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 55px;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+  text-align:center;
+  margin: 0px;
+}
+
+nav li{
+  list-style-type:none;
+  display: inline-block;
+  padding :12px;
+}
+
+nav a {
+  font-family: 'Open  Sans', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #484848;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+nav ul{
+float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.accordion{
+  padding: 0px 0px 0px 0px;
+}
+
+div.accordion li{
+  display:inline=block;
+  width 240pc;
+  height:380px;
+  text-align: center;
+}
+
+li#watchers{
+  background: url(images/logo-lightbeam.png);
+  url("images/bg-lightbeam.jpg");
+  background-size: 380px;
+  background-position:-80px 0px;
+}
+
+li#watchers {
+  text-decoration: none;
+  color: white;
+  font-size: 18px:
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  text-align :center;
+  text-shadow: 0 1px 0 black;
+  text-transform: uppercase;
+  margin: 0;
+  padding :40px 15px 0;
+  position absolute;
+  bottom; 0;
+  left:0;
+  width 218px;
+  height 80px;
+}
+
+li#look{
+background: url(images/firefoxos-fox.png);
+background-size: 380px;
+background-position:-80px 0px;
+}
+
+li#look {
+  text-decoration: none;
+  color: white;
+  font-size: 18px:
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  text-align :center;
+  text-shadow: 0 1px 0 black;
+  text-transform: uppercase;
+  margin: 0;
+  padding :40px 15px 0;
+  position absolute;
+  bottom; 0;
+  left:240px;
+  width 218px;
+  height 80px;
+}
+
+li#learn{
+background: url(images/logo-webmaker.png);
+background-size:380px;
+background-position:-80px 0px;
+}
+
+
+li#learn{
+  text-decoration: none;
+  color: white;
+  font-size: 18px:
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  text-align :center;
+  text-shadow: 0 1px 0 black;
+  text-transform: uppercase;
+  margin: 0;
+  padding :40px 15px 0;
+  position absolute;
+  bottom; 0;
+  left:240px;
+  width 218px;
+  height 80px;
+}
+
+
+li#NDN{
+background: url(images/logo-mdn.svg);
+background-size:380px;
+background-position:-80 0px;
+}
+
+li#NDN{
+  text-decoration: none;
+  color: white;
+  font-size: 18px:
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  text-align :center;
+  text-shadow: 0 1px 0 black;
+  text-transform: uppercase;
+  margin: 0;
+  padding :40px 15px 0;
+  position absolute;
+  bottom; 0;
+  left:240px;
+  width 218px;
+  height 80px;
+
+
+

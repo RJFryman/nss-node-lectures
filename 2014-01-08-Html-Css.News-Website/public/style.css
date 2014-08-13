@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Kotta+One);
+<link href='http://fonts.googleapis.com/css?family=Antic+Didone' rel='stylesheet' type='text/css'>
+header{
+  color : #C0C0C0;
+  border : 3px dashed #FFA500;
+}
+
+header h1 {
+  border: 5px solid red;
+  margin-left:200px;
+  margin-right:200px;
+  font-family: 'Kotta One', serif;
+  font-size: 50px;
+}
+
+body {
+  background : url(/image/tile.gif);
+}
+
+p {
+font-family: 'Antic Didone', serif;
+font-size: 14px;
+color: #848482;
+}
+
+a{
+  border: 2px solid #C35817;
+  text-decoration :none;
+  background color: #C35817;
+  color :#169DF7;
+  padding :2px
+}
+
+a:hover{
+  background color:#169DF7;
+  color : #C35817;
+}
+

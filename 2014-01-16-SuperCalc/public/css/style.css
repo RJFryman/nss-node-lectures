@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+body{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 30px;
+  color: black;
+  background: #404040;
+}
+
+#all{
+  position:absolute;
+  top: 25px;
+  left:50px;
+  bottom: 100px;
+  right: 50px;
+  text-align:center;
+}
+
+#cal{
+  Box-sizing:Border-box;
+  width : 60%
+}
+
+#display{
+  color:#f6f6e8;
+  Box-sizing:Border-box;
+  width : 100%;
+  background-color:#6A9A1F;
+  border-radius:25px;
+  text-align: right;
+  border: 2px solid;
+  height : 48px;
+  padding-top:15px;
+  padding-right:25px;
+}
+
+.buttons{
+  color:#f6f6e8;
+  Box-sizing:Border-box;
+  float: left;
+  width: 20%;
+  height : 72px;
+  border-radius:25px;
+  vertical-align:text-top;
+  display :block;
+  border: 2px solid;
+  padding-top:25px;
+}
+
+.inputs{
+  background-color:#D43F3F;
+}
+
+.ops{
+  background-color:#00ACE9;
+}
+
+#push{
+  color:#f6f6e8;
+  Box-sizing:Border-box;
+  width : 50%;
+  float: left;
+  background-color:#6A9A1F;
+  border: 2px solid;
+  height : 50px;
+  border-radius:25px;
+  padding-top:15px;
+}
+
+#queueClear{
+  color:#f6f6e8;
+  Box-sizing:Border-box;
+  width : 50%;
+  float: left;
+  background-color:#6A9A1F;
+  border: 2px solid;
+  height : 50px;
+  border-radius:25px;
+  padding-top:15px;
+}
+
+#queue{
+  color:#f6f6e8;
+  Box-sizing:Border-box;
+  width : 40%;
+  float: right;
+  background-color: #6A9A1F;
+  border-radius:25px;
+  list-style-type:none;
+  position:relative;
+  top:-320px;
+  height:330px;
+  border: 2px solid;
+  padding-top:25px;
+}
+
+#footer { 
+  position:fixed;
+  left: 0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  color:#f6f6e8;
+}

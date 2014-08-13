@@ -1,0 +1,52 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Hermes' Emporium
+    link(rel='stylesheet', href='/css/vendor/normalize.css')
+    link(rel='stylesheet', href='/css/vendor/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    .row
+      .small-12.columns
+        .panel
+          h1  Hermes the greek god of Merchants 
+    .row
+      .small-8.columns
+        form
+          .row
+            .small-5.columns
+              label Item Name
+              input#item(type='text', autofocus='true', placeholder='Ipod Touch')
+            .small-2.columns
+              label Quantity
+              input#quantity(type='text' placeholder='6')
+            .small-2.columns
+              label Amout
+              input#amount(type='text' placeholder='3.25')
+            .small-3.columns
+              label &nbsp;
+              button#add-item.tiny.radius  Add to Cart
+      .small-4.columns
+        table
+          thead
+            tr
+              th Item
+              th Quantity
+              th Amount
+              th Total
+          tfoot
+            tr
+              td
+              td 
+              td $0.00
+              td $0.00
+          tbody
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/source/main.js')
+    script($(document).foundation();)
